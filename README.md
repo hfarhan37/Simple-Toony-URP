@@ -13,7 +13,7 @@ Simple Toony URP is a simple toon shader package with custom toon lighting. Shad
 
 ## Features
 * Multiple Directional Light support
-* Multiple Point Light, Ambient Light, Baked Light support
+* Multiple Point Light, Ambient Light, Baked Light, Reflection Probe support
 * Tweaking baked light output through posterize parameter (Not great!)
 * Outline shader
 * Contains several subgraphs including for fetching Shadow Mask
