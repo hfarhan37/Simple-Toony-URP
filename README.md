@@ -15,6 +15,10 @@ Simple Toony URP is a simple toon shader package with custom toon lighting. Shad
 * Contains several subgraphs including for Shader Mask
 * Contains samples
 
+## Installation
+* Click ```Add packages from git url...``` from ```Package Manager```
+* Paste ```https://github.com/hfarhan37/Simple-Toony-URP.git``` and click add
+
 ## Usages
 * Use  ```SimpleURPToon/SimpleStandardToon``` shader in material for toon shader
 * Outline shader:
