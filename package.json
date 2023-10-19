@@ -25,5 +25,13 @@
   },
   "repository": {
     
-  }
+  },
+
+  "samples": [
+    {
+      "displayName": "Sample Toon Shader",
+      "description": "Contains demo assets",
+      "path": "Samples~/SampleToon"
+    }
+  ]
 }
