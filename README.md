@@ -1,8 +1,8 @@
 # Simple Toony URP
 
-![](https://static.wixstatic.com/media/3a7fb2_eb8491021ff84a8aa0edd63cca429b10~mv2.gif)
+![Imgur](https://i.imgur.com/hTVtx7V.png)
 
-Simple Toony URP is a simple toon shader package with custom toon lighting. Shaders are mostly developed in shader graph. For some features, HLSL file is used. Outline shader uses ```URP Sample Buffer``` node.
+Simple Toony URP is a simple toon shader package with custom toon lighting. Shaders are mostly developed in shader graph. This is mostly basic toon shader. However, several implementations such as adding support for point light and shadow mask might be useful for some people. For some features, HLSL codes are used. Outline shader uses ```URP Sample Buffer``` node.
 
 ## Unity Version Compatibility
 * 2022.3.7f1
@@ -18,6 +18,9 @@ Simple Toony URP is a simple toon shader package with custom toon lighting. Shad
 * Outline shader
 * Contains several subgraphs including for fetching Shadow Mask
 * Contains samples
+* Material converter tools to convert large amount of material
+
+![](https://i.imgur.com/2ZAUWzM.gif)
 
 ## Installation
 * Click ```Add packages from git url...``` from ```Package Manager```
@@ -31,8 +34,20 @@ Simple Toony URP is a simple toon shader package with custom toon lighting. Shad
   * Drag the outline material in the ```Pass Material```
   * Set ```Requirements``` to ```Depth```, ```Normal``` & ```Color```
 
-![](https://static.wixstatic.com/media/3a7fb2_5ad48574360d4c5ea203bb4d80301676~mv2.png)
+![Imgur](https://i.imgur.com/ozadZcO.png)
+
+## Material Converter
+* Open through ```Window/Simple Toony URP/Material Converter```
+* Select the material type from ```Project Materials to Convert```
+* A list of materials will be shown from selected material type
+* You can select the materials that you want to exclude from the conversion
+* Select the target material type from ```Target``` to which you want to convert
+* Click ```Convert``` button to start conversion process
+* You can also click ```Convert All Project Materials``` to convert all project materials. But it is NOT RECOMMENDED.
+* You can undo the material conversion as well for accidental conversion
+
+![Imgur](https://i.imgur.com/2VAglGq.png)
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.md` for more information.
+Distributed under the MIT License. See [License](https://github.com/hfarhan37/Simple-Toony-URP/blob/master/LICENSE.md) for more information.
