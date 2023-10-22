@@ -4,6 +4,8 @@
 
 Simple Toony URP is a simple toon shader package with custom toon lighting. Shaders are mostly developed in shader graph. This is mostly basic toon shader. However, several implementations such as adding support for point light and shadow mask might be useful for some people. For some features, HLSL codes are used. Outline shader uses ```URP Sample Buffer``` node.
 
+![Imgur](https://i.imgur.com/8Q0NCRI.png)
+
 ## Unity Version Compatibility
 * 2022.3.7f1
 * Other versions may work for toon shader but not tested
